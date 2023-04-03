@@ -1,0 +1,9 @@
+/run/initialize
+#
+
+/analysis/setFileName reconstruction
+
+/analysis/ntuple/setActivation 0 true
+/analysis/ntuple/setActivation 3 true
+/run/beamOn 100000
+

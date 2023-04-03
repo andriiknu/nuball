@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/andrii/root/6.26.06/install/include -I/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/include    -std=c++14 -pipe -fsigned-char -pthread -g   -o CMakeFiles/analysis.dir/BiasingCo60.cc.o -c /mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/BiasingCo60.cc",
+  "file": "/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/BiasingCo60.cc"
+},
+{
+  "directory": "/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/andrii/root/6.26.06/install/include -I/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/include    -std=c++14 -pipe -fsigned-char -pthread -g   -o CMakeFiles/analysis.dir/reconstruction.cc.o -c /mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/reconstruction.cc",
+  "file": "/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/reconstruction.cc"
+}
+]

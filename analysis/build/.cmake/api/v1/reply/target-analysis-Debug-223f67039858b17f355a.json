@@ -1,0 +1,239 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "analysis"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/andrii/root/6.26.06/install/cmake/ROOTUseFile.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -std=c++14 -pipe -fsigned-char -pthread -g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/andrii/root/6.26.06/install/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/mnt/e/Paris-Saclay/Results/SrcCode/nuball/analysis/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "analysis::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++14 -pipe -fsigned-char -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/home/andrii/root/6.26.06/install/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/andrii/root/6.26.06/install/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libImt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libRIO.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libNet.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libHist.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libGraf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libGraf3d.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libGpad.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libROOTDataFrame.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libTree.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libTreePlayer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libRint.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libPostscript.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libMatrix.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libPhysics.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libMathCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libThread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libMultiProc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/andrii/root/6.26.06/install/lib/libROOTVecOps.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "analysis",
+	"nameOnDisk" : "analysis",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BiasingCo60.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "reconstruction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GetAngles.hh",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

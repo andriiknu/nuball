@@ -1,0 +1,10 @@
+/run/initialize
+#
+/analysis/setFileName Co60.root
+
+/analysis/ntuple/setActivation 0 true
+/analysis/ntuple/setActivation 1 true
+/analysis/ntuple/setActivation 2 true
+/run/beamOn 100000
+
+

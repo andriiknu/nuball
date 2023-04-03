@@ -1,0 +1,25 @@
+0) Compile
+
+to get energy & multiplicity reconstruction do:
+
+
+1) Ensure that content of "void NuballPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)" 
+include the uncommentet line "SetMultipleGamma(&GetMultiplicityValue, &GetFLATdistrEnergy, anEvent);"
+
+2) ./build/mynuball -t NumberOfCores -m gun.mac
+3) cp Nuball.root ./analysis/gun.root
+4) cd analysis
+5) root reconstruction.cc
+
+Genereted and reconstructed distributions saved in the file ./analysis/reconstruction.root
+and in reconstruction.pdf
+
+to get biansing do:
+
+1) Ensure that content of "void NuballPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)" 
+include the uncommentet line "SetCo60decay(anEvent);"
+2) ./build/mynuball -t NumberOfCores -m Co60.mac
+3) cp Nuball.root ./analysis/Co60.root
+4) cd analysis
+5) root BiasingCo60.cc
+after execution last command execution graphs are saved in png
